@@ -13,7 +13,7 @@ public partial class UploadResume : Page
         {
             string blobServiceEndpoint = "https://mbtfileshr.blob.core.windows.net/";
             string sasToken = "";
-            string containerName = "resumes"; <%-- container for testing, deleted --%>
+            string containerName = "resumes"; /* container for testing, deleted */
 
             try
             {
