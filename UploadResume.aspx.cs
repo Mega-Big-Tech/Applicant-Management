@@ -12,8 +12,8 @@ public partial class UploadResume : Page
         if (fileUpload.HasFile)
         {
             string blobServiceEndpoint = "https://mbtfileshr.blob.core.windows.net/";
-            string sasToken = "?sv=2022-11-02&ss=bfqt&srt=sco&sp=rl&se=2099-05-06T06:03:29Z&st=2024-05-05T22:03:29Z&spr=https&sig=Dws3bgGUWCUknRdVmRoFXItmnItJDLHy76Axgu1qNtE%3D";
-            string containerName = "resumes";
+            string sasToken = "";
+            string containerName = "resumes"; <%-- container for testing, deleted --%>
 
             try
             {
